@@ -1,10 +1,10 @@
 	html, body
 	{
 		height: 100%;
-        background-image: <img SRC = "background.jpg" alt="Background Image" />;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
+		background-image: <img SRC = "background.jpg" alt="Background Image" />;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
 	}
 	
 	body
@@ -14,7 +14,7 @@
 		font-family: 'Varela Round', sans-serif;
 		font-size: 11pt;
 		font-weight: 400;
-        color: #000000;
+        	color: #000000;
 	}
 	
     h1
