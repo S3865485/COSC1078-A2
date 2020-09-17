@@ -1,7 +1,7 @@
 	html, body
 	{
 		height: 100%;
-        background-image: url(/background.jpg);
+        background-image: url(background.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
@@ -141,7 +141,7 @@
 		overflow:hidden;
         background-color: transparent;
         text-align: left;
-        background-image: url(/logo.png);
+        background-image: url(logo.png);
         background-repeat: no-repeat;
         padding-bottom: 150px;
         width: 1250px;
