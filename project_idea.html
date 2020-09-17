@@ -1,0 +1,64 @@
+<!DOCTYPE>
+<html>
+<head>
+
+<title>Tech Connect</title>
+
+
+<link href="main.css" rel="stylesheet" type="text/css" media="all" />
+
+
+</head>
+<body>
+<div id="wrapper1">
+	<div id="header-wrapper" class="container">
+        <br>
+        <br>
+        <br>
+    </div>
+</div>
+<div>
+    <div id="menu" class= "container">
+        <ul>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="ideal_jobs.html" >Ideal Jobs</a></li>
+            <li><a href="industry_data.html" >Industry Data</a></li>
+            <li><a href="it_work.html" >IT Work</a></li>
+            <li><a href="it_technologies.html" >IT Technologies</a></li>
+            <li class="current_page_item"><a href="project_idea.html" >Project Idea</a></li>
+            <li><a href="tools.html" >Tools</a></li>
+        </ul>
+    </div>
+</div>
+<div class= "container">
+    <div id="welcome" class="title">
+        <h2 >Project Idea</h2>
+    </div>
+    <div id="wrapper3">
+        <h3>Overview</h3>
+        <h3>Motivation</h3>
+        <h3>Description</h3>
+        <h3>Tools & Technologies</h3>
+        <h3>Skills</h3>
+    </div>
+</div>
+    
+    
+    
+    
+<script>
+    window.onscroll= function() {myFunction()};
+
+    var menu = document.getElementById("menu");
+    var sticky = menu.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= 160) {
+        menu.classList.add("sticky")
+      } else {
+        menu.classList.remove("sticky");
+      }
+    }
+</script>        
+</body>
+</html>
