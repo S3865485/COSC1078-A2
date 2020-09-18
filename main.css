@@ -1,7 +1,7 @@
 	html, body
 	{
 		height: 100%;
-        background-image: url(background.jpg);
+        background-image:url(background.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
@@ -12,7 +12,7 @@
 		margin: 0px;
 		padding: 0px;
 		font-family: 'Varela Round', sans-serif;
-		font-size: 11pt;
+		font-size: 12pt;
 		font-weight: 400;
         color: #000000;
 	}
@@ -66,6 +66,7 @@
 		width: 1200px;
         background-color: ghostwhite;
 	}
+
     .sticky 
     {
         position: fixed;
@@ -77,15 +78,16 @@
     {
         padding-top: 100px;
     }
+
     table {
         font-family: arial, sans-serif;
         border-collapse: collapse;
         width: 1050px;
-        margin-left: 25px;
+        margin-left: 50px;
         margin-bottom: 25px;
     }
 
-    td, th {
+    td, th{
         border: 1px solid black;
         text-align: left;
         padding: 5px; 
@@ -95,19 +97,28 @@
 
     tr:nth-child() {
     }
-    #tableT th{
-        text-align: center;
-        font-size: 25px;
-        color: darkorange;
+
+    .emp{
+        background-color: grey;
     }
+
     table li{
         text-align: left;
         padding: 2px;
     }
-    table .emp{
-        background-color: grey;
+
+    .table1 td{
+        border:none;
     }
-    /*********************************************************************************/
+
+
+    .Table td{
+        border:none;
+        width:auto;
+    }
+
+
+/*********************************************************************************/
 /* Heading Titles                                                                */
 /*********************************************************************************/
 
@@ -176,7 +187,7 @@
 	{
 		display: inline-block;
 		margin-left: 0.50em;
-		padding: 1em 1.5em;
+		padding: 1em 1em;
 		letter-spacing: 0.20em;
 		text-decoration: none;
 		font-size: 0.5m;
@@ -220,6 +231,9 @@
 	}
     #wrapper3 a
     {
+        padding-left:0px;
+    }
+    #wrapper3 img{
         padding-left: 50px;
     }
     #wrapper4
@@ -232,6 +246,9 @@
         border-top:0px;
     }
     #wrapper4 li{
+        padding-left: 50px;
+    }
+    #wrapper4 a{
         padding-left: 50px;
     }
 	
